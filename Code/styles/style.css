@@ -609,7 +609,7 @@ nav a {
 
 
 .ourdoctors{
-    height: 120vh;
+    height: 170vh;
     background-color: white;
 }
 
@@ -646,12 +646,13 @@ nav a {
     height: 100%;
 }
 .doc-co{
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin-left: 20%;
+    margin-right: 50%;
 }
 .doccard{
-    width: 20%;
-    height: 40%;
+    width: 23em;
+    height: 35em;
     background-color: #F5F8FA;
     border-radius: 23px;
     display: flex;
@@ -668,3 +669,45 @@ nav a {
 }
 
 
+
+
+.row{
+    display: flex;
+    gap: 20%;
+    margin-top: 5% ;
+    margin-right: 10%;
+}
+
+
+.call-in-action{
+    height: 70vh;  
+    display: flex;
+    justify-content: center;
+
+}
+.card-call{
+    width: 98%;
+    height: 70vh;
+    display: flex;
+    margin-left: 12px;
+    margin-right: 12px;
+    
+}
+.cia-left{
+    width: 60%;
+}
+.cia-right{
+    margin-left: 80px;
+        width: 41.7%;
+        margin-right: 80px;
+}
+.cia-left img{
+    width: 110%;
+    position: relative ;
+
+}
+.cia-right img{
+    width: 110%;
+    
+
+}
