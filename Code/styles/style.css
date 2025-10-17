@@ -613,7 +613,7 @@ nav a {
 
 
 .ourdoctors {
-    height: 250vh;
+    height: 170vh;
     background-color: white;
 }
 
@@ -1282,4 +1282,8 @@ footer {
 .doc-row{
     display: flex;
     gap: 10%;
+}
+
+.space{
+    height: 110vh;
 }
