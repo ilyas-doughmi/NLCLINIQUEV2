@@ -613,7 +613,7 @@ nav a {
 
 
 .ourdoctors {
-    height: 170vh;
+    height: 250vh;
     background-color: white;
 }
 
@@ -1206,6 +1206,9 @@ footer {
     margin-bottom: 25px;
     margin-left: 20%;
 }
+.page-tag p {
+    font-weight: bold;
+}
 
 .background-others {
     position: absolute;
@@ -1260,4 +1263,23 @@ footer {
 
 .about-row1{
     display: flex;
+}
+
+/* doctorpage */
+.column-pricing {
+    display: flex;
+    
+}
+
+
+
+
+.doc-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.doc-row{
+    display: flex;
+    gap: 10%;
 }
