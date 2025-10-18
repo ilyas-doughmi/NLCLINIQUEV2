@@ -376,17 +376,13 @@ nav a {
     left: 50%;
 }
 
-#topau {
-    background-color: #2ecc70a8;
-    border: 4px solid #5EE088;
-    padding: 8px 20px;
-    border-radius: 12px 12px 0px 12px;
-    font-size: 16px;
-    font-weight: 700;
-
-    margin-bottom: 25px;
-    position: relative;
-    width: 140px;
+.top-tag {
+    background-color: #F3F9FF;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #2677BC;
+    font-weight: 500;
 }
 
 .auright h3 {
